@@ -12,30 +12,31 @@ void draw() {
   //Make a creature!!! 
   //all of your programming should be after this 👍
   
+  //Adds a dark background
   background(60);
   stroke(0);
 
-  //Tongue
+  //Creature's tongue
   fill(218, 93, 93);
   ellipse(280, 200, 50, 20);
 
-  //Body
+  //Creature's body
   fill(21, 128, 0);
   ellipse(180, 200, 200, 200);
 
-  //Shoe
+  //Creature's shoe
   fill(127, 57, 57);
   rect(240, 300, 120, 60);
   
-  //Eyeball
+  //Creature's eyeball
   fill(255);
   ellipse(240, 120, 50, 50);
 
-  //Pupil
+  //Creature's pupil
   fill(0);
   ellipse(255, 115, 20, 20);
  
-	//Hair
+	//Creature's hair
   line(135, 110, 100, 100);
   line(143, 106, 134, 83);
   line(163, 101, 152, 82);
